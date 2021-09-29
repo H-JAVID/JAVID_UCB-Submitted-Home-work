@@ -322,7 +322,7 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 3. Read the contents of the `ryancookies.txt` file.
 
    - **Question:** How many items exist in this file? __3 Item__   
-   ***- ![Ryan's Cookies](Pictures)***
+   ***- ![Ryan's Cookies](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/step3-Ryan's%20cookies.PNG)***
 
 Note that each one of these is a cookie that was granted to Ryan after logging in.
 
