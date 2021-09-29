@@ -335,7 +335,7 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
 
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) __YES__ If so, you should be successfully logged in to your Editor's dashboard.
-    - __![Dashboard](Pictures)__
+    - __![Dashboard](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/Editor's%20Dashboard.PNG)__
 
 #### Step 5: Test the Users.php Page
 
