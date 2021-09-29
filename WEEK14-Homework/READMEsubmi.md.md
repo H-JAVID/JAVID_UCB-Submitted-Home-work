@@ -341,7 +341,7 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
 1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
 
-    - **Question:** What happens this time?__We need a higher level of permission__.__![step5-with user Cookie-denied](Pictures)__
+    - **Question:** What happens this time?__We need a higher level of permission__.__![step5-with user Cookie-denied](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/step5.PNG)__
 
 ---
 
