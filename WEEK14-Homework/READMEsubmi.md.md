@@ -322,7 +322,7 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 3. Read the contents of the `ryancookies.txt` file.
 
    - **Question:** How many items exist in this file? __3 Item__   
-   ***- ![Ryan's Cookies](Pictures)***
+   ***- ![Ryan's Cookies](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/step3-Ryan's%20cookies.PNG)***
 
 Note that each one of these is a cookie that was granted to Ryan after logging in.
 
@@ -335,13 +335,13 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
 
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) __YES__ If so, you should be successfully logged in to your Editor's dashboard.
-    - __![Dashboard](Pictures)__
+    - __![Dashboard](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/Editor's%20Dashboard.PNG)__
 
 #### Step 5: Test the Users.php Page
 
 1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
 
-    - **Question:** What happens this time?__We need a higher level of permission__.__![step5-with user Cookie-denied](Pictures)__
+    - **Question:** What happens this time?__We need a higher level of permission__.__![step5-with user Cookie-denied](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK14-Homework/IMAGE/step5.PNG)__
 
 ---
 
