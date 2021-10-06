@@ -31,7 +31,7 @@ Registrant Country: US`
 
   7. What is the IP address of the DNS server:
 `65.61.137.117-AS33070-RMH-14`
-![16-2-4](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+![16-2-4](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK-16-HOMEWORK-Penetration-Testing-1/IMAGES/2-4.PNG)
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
