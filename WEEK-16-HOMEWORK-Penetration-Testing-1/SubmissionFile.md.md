@@ -54,7 +54,7 @@ _![16-A](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 
 - Command for Zenmap to run a service scan against the Metasploitable machine:
-- `nmap -T4 -A -v192.168.0.10` 
+- `nmap -T4 -A -v 192.168.0.10` 
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 - `nmap -sV -sC -oN zenmapscan.txt 192.168.0.10` 
