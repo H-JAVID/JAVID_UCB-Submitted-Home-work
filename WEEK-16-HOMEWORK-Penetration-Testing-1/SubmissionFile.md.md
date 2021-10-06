@@ -4,7 +4,7 @@
 
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
--   ![16-1](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+-   ![16-1A](WEEK-16-HOMEWORK-Penetration-Testing-1/IMAGES/hw16-1A.PNG)
 
 - How can this information be helpful to an attacker:
 - **This gives an attacker a deeper understanding of the site's file structure.**
