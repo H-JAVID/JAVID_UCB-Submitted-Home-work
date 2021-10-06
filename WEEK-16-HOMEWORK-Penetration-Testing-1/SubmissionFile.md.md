@@ -27,7 +27,7 @@ Registrant Country: US`
 
   5. What is the company they use to store their infrastructure:
   ` Rackspace Backbone Engineering`
-
+ - ![16-3B](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK-16-HOMEWORK-Penetration-Testing-1/IMAGES/16-3A.PNG)
 
   7. What is the IP address of the DNS server:
 `65.61.137.117-AS33070-RMH-14`
@@ -35,7 +35,7 @@ Registrant Country: US`
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
-    - ![16-3B](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+   
     - ![16-3A](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
 
 #### Step 4: Recon-ng
