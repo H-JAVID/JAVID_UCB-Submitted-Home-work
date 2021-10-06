@@ -58,6 +58,7 @@ As you complete the steps below, please record your answers in the [Submission.m
 Altoro Mutual wants to ensure that private information that is unavailable on their public website cannot be found by searching the web.
 
 -   For example, Altoro Mutual does not mention their executive remembers on the website. Using Google, can you identify who the Chief Executive Officer?
+
     
 -   How can this information be helpful to an attacker?**This gives an attacker a deeper understanding of the site's file structure.**
 __We'll use a combination of Google search techniques to target Altoro Mutual and gather information such as:__
@@ -77,16 +78,12 @@ The reconnaissance phase of a penetration test is possibly the most important ph
     
 -   Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
     
-    1.  Where is the company located?`Registrant City: Sunnyvale
-Registrant State/Province: CA
-Registrant Postal Code: 94085
-Registrant Country: US`
+    1.  Where is the company located?
         
-    2.  What is the NetRange IP address?`NetRange:       65.61.137.64 - 65.61.137.127`
-        
-    3.  What is the company they use to store their infrastructure?` Rackspace Backbone Engineering`
-        
-    4.  What is the IP address of the DNS server?`65.61.137.117-AS33070-RMH-14`
+    2.  What is the NetRange IP address?`
+    3.  What is the company they use to store their infrastructure?
+    4.  What is the IP address of the DNS server?
+    ![16-2-4](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
         
 
 #### [](#step-3-shodan)Step 3: Shodan
@@ -98,6 +95,8 @@ Using Shodan and the information gathered from Google Dorking, find any other us
 -   Run a scan against the IP address of the DNS server for `demo.testfire.net`.
     
     -   What open ports and running services did Shodan find?
+    - ![16-3B](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+    - ![16-3A](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
 
 #### [](#step-4-recon-ng)Step 4: Recon-ng
 
@@ -107,7 +106,11 @@ Altoro Mutual is also concerned about cross-site scripting attacks, which can ca
 -   Set the source to `demo.testfire.net`.
 -   Run the module.
 
-Is Altoro Mutual vulnerable to XSS?
+Is Altoro Mutual vulnerable to XSS? 
+__YES, as shown in the pictures below__
+
+_![16-A](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+-![16-B](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
 
 ### [](#step-5-zenmap)Step 5: Zenmap
 
@@ -121,8 +124,10 @@ Your client has asked that you help identify any vulnerabilities with their file
 -   Once you have identified this vulnerability, answer the following questions for your client:
     
     1.  What is the vulnerability?
-    2.  Why is it dangerous?
-    3.  What are your recommendations for the client to protect their server?
+ 
+
+    3.  Why is it dangerous?
+    4.  What are your recommendations for the client to protect their server?
 
 ----------
 
