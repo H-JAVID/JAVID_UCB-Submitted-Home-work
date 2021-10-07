@@ -36,7 +36,7 @@ Registrant Country: US`
 
 - What open ports and running services did Shodan find:
    
-    - ![16-3A](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+   __80,443,8080__
 
 #### Step 4: Recon-ng
 
