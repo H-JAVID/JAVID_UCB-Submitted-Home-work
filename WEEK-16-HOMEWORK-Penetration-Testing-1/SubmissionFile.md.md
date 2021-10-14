@@ -9,6 +9,11 @@
 - How can this information be helpful to an attacker:
 - **This gives an attacker a deeper understanding of the site's file structure.**
 __We'll use a combination of Google search techniques to target Altoro Mutual and gather information such as:__
+-   Employee email addresses
+-   Employees' first and last names
+-   Domain information
+
+The goal is to find data that can be used to attack Altoro Mutual.
 
 
 #### Step 2: DNS and Domain Discovery
