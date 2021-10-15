@@ -52,7 +52,7 @@ For this week's homework, please use the following VM setup:
 
 Once you complete this assignment, submit your findings in the following document: 
 
-- [Report.docx](Resources/Report.docx)
+- [Report.docx](WEEK17-Homework/Deliverable-REPORT.docx.md.md)
 
 ### Instructions
 
