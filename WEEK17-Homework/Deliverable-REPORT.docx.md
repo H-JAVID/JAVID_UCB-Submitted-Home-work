@@ -222,7 +222,8 @@ We've been provided full access to the network and are getting ping responses fr
  
  
  
-    - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
+     ## Bonus:
+    #### Run the command that exfiltrates the `recipe*.txt` file:
 
 
       > Answer:  `search -f *recipe*.txt*`
