@@ -213,23 +213,35 @@ We've been provided full access to the network and are getting ping responses fr
  
     - Run the command to performs a search for the `recipe.txt` on the target:
 
+
+
       > Answer:  `search -f *recipe.txt*`
+
+
 
 
  ![b7-1](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b7-1.PNG)
  
- 
- 
- 
- 
-     ## Bonus:
-    #### Run the command that exfiltrates the `recipe*.txt` file:
+
+     
+  
 
 
-      > Answer:  `search -f *recipe*.txt*`
+## Bonus:
       
       
- ![b7-2](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b7-2.PNG)
+
+
+   Run the command that exfiltrates the `recipe*.txt` file:
+   
+   
+
+
+  > Answer:  `search -f *recipe*.txt*`
+
+
+
+![b7-2](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b7-2.PNG)
  
  
  
@@ -237,6 +249,8 @@ We've been provided full access to the network and are getting ping responses fr
  
  
  - **Bonus2(By-me)**:
+
+
 
 
  - ![meterpreter>shell](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/meterpreter-shell.PNG)
@@ -280,11 +294,23 @@ B. Open a Meterpreter shell and gather system information for the target.
 
 
  
-  > Answer:  meterpreter > `shell `![Bonus-B-1(shell)](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-B-1.PNG)
+  > Answer:  meterpreter > `shell `
+  > 
+  > 
+  >
+  >  ![Bonus-B-1(shell)](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-B-1.PNG)
+
+
 
 
      
-  > Answer:  meterpreter > `sysinfo `![Bonus-sysinfo](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/sysinfo.PNG)
+  > Answer:  meterpreter > `sysinfo `
+  > 
+  > 
+  > 
+  > ![Bonus-sysinfo](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/sysinfo.PNG)
+
+
 
 
 
@@ -295,7 +321,11 @@ C. Run the command that displays the target's computer system information:
    > Answer: `systeminfo`
 
 
+
+
 ![Bonus-c](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/Bonus-c.PNG)
+
+
 
 
 
