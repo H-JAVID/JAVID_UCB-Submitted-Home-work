@@ -52,7 +52,7 @@ For this week's homework, please use the following VM setup:
 
 Once you complete this assignment, submit your findings in the following document: 
 
-- [Report.docx](Resources/Report.docx)
+- [Report.docx](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/Deliverable-REPORT.docx.md)
  
 ### Instructions
 
@@ -63,7 +63,7 @@ You've been provided full access to the network and are getting ping responses f
     - Run the Nmap command that performs a service and version scan against the target.
 
       > Answer: `nmap -sS -O -sV 192.168.0.20 `
- ![b1](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
+ ![https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b1.jpg](C:%5CUsers%5Chjavid%5CPictures%5CForHW-15%5C16-HW)
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
  
