@@ -156,7 +156,7 @@ We've been provided full access to the network and are getting ping responses fr
      > Answer: msf5 > `search Icecast`
 
 
- ![b4](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b4-note.PNG)
+ ![b4](https://github.com/H-JAVID/JAVID_UCB-Submitted-Home-work/blob/main/WEEK17-Homework/17-Hw-IMAGES/b4.PNG)
 
 
 
